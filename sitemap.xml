@@ -3,17 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://monsieurverde.github.io/northecided/categories/</loc>
+    <loc>/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://monsieurverde.github.io/northecided/</loc>
+    <loc>/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://monsieurverde.github.io/northecided/tags/</loc>
+    <loc>/tags/</loc>
     <priority>0</priority>
   </url>
   
