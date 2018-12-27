@@ -1,0 +1,3 @@
+[submodule "northport/themes/coder-portfolio"]
+	path = northport/themes/coder-portfolio
+	url = https://github.com/naro143/hugo-coder-portfolio.git
