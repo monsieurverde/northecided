@@ -1,5 +1,5 @@
-baseurl = ""
-title = "Dominique Northecide"
+baseurl = "/"
+title = "Dom Northecide"
 
 theme = "coder-portfolio"
 GoogleAnalytics = "UA-138654554-1"
@@ -16,11 +16,11 @@ pygmentsUseClasses = true
 disqusShortname = "portfolio"
 
 [params]
-    author = "Dominique Northecide"
+    author = ""
     description = "Dominique Northecide's personal website"
     keywords = "blog,developer,personal"
     info = "portfolio"
-    avatarurl = "images/avatar.jpg"
+    #avatarurl = "images/avatar.jpg"
     footercontent = ""
     fixedbarContent = ""
     fixedbarContentAfter = "Thank You! Please share it if you like it→"
@@ -56,30 +56,52 @@ disqusShortname = "portfolio"
 #     weight = 3
 #     url = "https://www.linkedin.com/in/naro143/"
 # 
+
+
+
 [languages]
     [languages.en]
         languagecode = "en"
         languagename = "English" # The language name to be displayed in the selector.
-        title = "Dominique Northecide"
+        title = "DOM NOЯTHΞCIDΞ"
 
         # You can configure the theme parameter for each language.
         [languages.en.params]
-            author = "Dominique Northecide"
+            #author = "Dominique Northecide"
             info = ""
             description = "Dominique Northecide's personal website"
             keywords = "blog,developer,personal"
 
         [languages.en.menu] # It is possible to change the menu too.
 
-#             [[languages.en.menu.main]]
-#                 name = "About"
-#                 weight = 1.0
-#                 url = "about"
-# 
-#             [[languages.en.menu.main]]
-#                 name = "Blog"
-#                 weight = 2.0
-#                 url = "posts"
+                [[languages.en.menu.main]]
+                    name = "About"
+                    weight = 1.0
+                    url = "about"
+                [[languages.en.menu.main]]
+                    name = "Style"
+                    weight = 2.0
+                    url = "https://drive.google.com/file/d/1PGZLPF1NjhzZVPcH3mrIj6z5tnP_jvcE/view?usp=sharing"
+
+                [[languages.en.menu.main]]
+                    name = "Blog"
+                    weight = 3.0
+                    url = "blog"
+                
+                [[languages.en.menu.main]]
+                    name = "Contact"
+                    weight = 4.0
+                    url = "contact"
+
+                [[languages.en.menu.main]]
+                    name = "Shop"
+                    weight = 5.0
+                    url = "shop"
+
+#               [[languages.en.menu.main]]
+#                   name = "Blog"
+#                   weight = 2.0
+#                   url = "gallery.sketch"
 # 
 #             [[languages.en.menu.main]]
 #                 name = "Projects"
@@ -90,6 +112,8 @@ disqusShortname = "portfolio"
 #                 weight = 5
 #                 url = "contact"
 # 
+
+
 
     [languages.ja]
         languagecode = "ja"
