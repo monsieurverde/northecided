@@ -1,4 +1,5 @@
 
+
 <style>
     .content {
       max-width: 500px;
@@ -6,8 +7,8 @@
     }
     </style>
     <body>
-    
-    <div class="content">
+
+  <input id="browser2" type="hidden" value="Chrome 79" name="browser2">      
 <section id="contact" class="home-section bg-gray paddingbot-60">
     <div class="container">
         <div class="row">
@@ -17,7 +18,7 @@
                 
                     <div class="panel panel-skin">
                     <div class="panel-heading">
-                            <h3 class="panel-title"><span class="fa fa-pencil-square-o"></span> Contact us <small>(Coral Group MD)</small></h3>
+                            <h3 class="panel-title"><span class="fa fa-pencil-square-o"></span> Contact us <small></small></h3>
                             </div>
                             <div class="panel-body">
                             <form id="contact-form" role="form" class="lead">
@@ -25,13 +26,13 @@
                                     <div class="col-xs-6 col-sm-6 col-md-6">
                                         <div class="form-group">
                                             <label>First Name</label>
-                                            <input type="text" name="first_name" id="first_name" class="form-control input-md">
+                                            <input type="text" name="first_name" id="first_name" >
                                         </div>
                                     </div>
                                     <div class="col-xs-6 col-sm-6 col-md-6">
                                         <div class="form-group">
                                             <label>Last Name</label>
-                                            <input type="text" name="last_name" id="last_name" class="form-control input-md">
+                                            <input type="text" name="last_name" id="last_name"  >
                                         </div>
                                     </div>
                                 </div>
@@ -39,13 +40,13 @@
                                         <div class="col-xs-6 col-sm-6 col-md-6">
                                             <div class="form-group">
                                                 <label>Title</label>
-                                                <input type="text" name="title" id="title" class="form-control input-md">
+                                                <input type="text" name="title" id="title"  >
                                             </div>
                                         </div>
                                         <div class="col-xs-6 col-sm-6 col-md-6">
                                             <div class="form-group">
                                                 <label>Company</label>
-                                                <input type="text" name="company" id="company" class="form-control input-md">
+                                                <input type="text" name="company" id="company" >
                                             </div>
                                         </div>
                                     </div>
@@ -53,13 +54,13 @@
                                     <div class="col-xs-6 col-sm-6 col-md-6">
                                         <div class="form-group">
                                             <label>Email</label>
-                                            <input type="email" name="email" id="email" class="form-control input-md">
+                                            <input type="email" name="email" id="email"  >
                                         </div>
                                     </div>
                                     <div class="col-xs-6 col-sm-6 col-md-6">
                                         <div class="form-group">
                                             <label>Phone number</label>
-                                            <input type="text" name="phone" id="phone" class="form-control input-md">
+                                            <input type="text" name="phone" id="phone" >
                                         </div>
                                     </div>
                                 </div>
@@ -67,19 +68,26 @@
                                         <div class="col-xs-12 col-sm-12 col-md-12">
                                             <div class="form-group">
                                                 <label>Message</label>
-                                                <input type="text" name="message" id="message" class="form-control input-md">
+                                                <input type="text" name="message" id="message" >
                                             </div>
                                         </div>
                                     </div>
-                                    <input id="browser" type="hidden" value="browser" name="browser">
-                                    <button type="submit" id="submit-form" class="btn btn-skin btn-block btn-lg">Submit</button>
-                                    <!-- 
-                                <input type="submit" id="submit-form" value="Submit" class="btn btn-skin btn-block btn-lg">
-                                -->
+                                   
+                                    <button type="submit" id="submit-form" >Submit</button>
+                                <!--  
+                                                                        <input id="browser" type="hidden" value="browser" name="browser">
 
-                                <p class="lead-footer">* We'll contact you by phone & email later</p>
-                            
+                                    <input type="submit" id="submit-form" value="Submit" class="btn btn-skin btn-block btn-lg"class="btn btn-skin btn-block btn-lg">
+  -->
+
+                                <p class="lead-footer">* We will contact you by phone or email</p>
+                           
                             </form>
+                            <script src="https://www.coralgroupmd.com/js/jquery.min.js"></script>	 
+
+                            <script src="/js/contact.js"></script>
+                        
+                            <div class="content">
                         </div>
                     </div>				
                 
@@ -90,5 +98,6 @@
 </div>		
 </section>
 </div>
+
 
 </body>
